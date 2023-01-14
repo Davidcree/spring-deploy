@@ -11,7 +11,7 @@ public class HelloController {
 
     @Value("${app.message}")
     String masage;
-    @GetMapping("/hola")
+    @GetMapping("/holaa")
     public String holaMundo(){
         System.out.println(masage);
         return "Hola mundp que tal vamoos! hasta luego";
